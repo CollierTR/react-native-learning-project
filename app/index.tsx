@@ -12,6 +12,7 @@ export default function Index() {
       }}
     >
       <Text style={styles.customText}>Hello nvim!</Text>
+      <Text className="text-red-600 bg-black p-2">Hello NativeWind!</Text>
     </View>
   );
 }
